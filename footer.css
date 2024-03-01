@@ -1,0 +1,114 @@
+.footer-div{
+    display: flex;
+    background-color: rgb(2, 6, 12);
+    color: #fff;
+    padding-left: 13rem;
+    padding-right: 17rem;
+    padding-bottom: 7rem;
+    justify-content: space-between;
+    row-gap: 3rem;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+}
+.contact-legal{
+    display: flex;
+    flex-direction: column;
+}
+.footer-div .head{
+    padding-top: 3rem;
+    font-weight: bold;
+    font-size: 17px;
+}
+.footer-div .text{
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+.footer-div .copyright{
+    padding-top: 3rem;
+    /* justify-content: left; */
+}
+.footer-div .swiggy{
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 7px;
+}
+.footer-div .deliver select{
+    margin-top: 15px;
+    padding: 3px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+    background: transparent;
+}
+.footer-div .logo-div .logo{
+    padding-left: 0px;
+}
+@media(max-width:768px){
+    .footer-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media(min-width:768px){
+    .footer-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:992px){
+    .footer-div{
+        display: flex;
+        background-color: rgb(2, 6, 12);
+        color: #fff;
+        padding-left: 13rem;
+        padding-right: 17rem;
+        padding-bottom: 7rem;
+        justify-content: space-between;
+        row-gap: 3rem;
+    }
+    .logo-div{
+        display: flex;
+        align-items: center;
+    }
+    .contact-legal{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-div .head{
+        padding-top: 3rem;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .footer-div .text{
+        padding-top: 15px;
+        color: rgba(255, 255, 255, 0.6);
+        cursor: pointer;
+    }
+    .footer-div .copyright{
+        padding-top: 3rem;
+        /* justify-content: left; */
+    }
+    .footer-div .swiggy{
+        font-weight: bold;
+        font-size: 23px;
+        padding-left: 7px;
+    }
+    .footer-div .deliver select{
+        margin-top: 15px;
+        padding: 3px;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.3px;
+        color: rgba(255, 255, 255, 0.6);
+        background: transparent;
+    }
+    .footer-div .logo-div .logo{
+        padding-left: 0px;
+    }
+}

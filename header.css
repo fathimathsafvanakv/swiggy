@@ -1,0 +1,125 @@
+header{
+    height: 80px;
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1000;
+    }
+nav{
+        display: flex;
+        flex-direction: row;
+    }
+.right-section{
+    display: flex;
+    flex:1;
+    
+}
+nav .fa{
+    color: #fc8019;
+    padding-left: 15px;
+} 
+nav .right-svg{
+    
+    margin-left: 30px;
+} 
+
+.navbar-toggler{
+    background-color: #fc8019;
+    color:rgba(255,255,255,.55);
+    border: 2px rgba(255,255,255,.55);
+    margin-left: 15rem;
+}
+.right-section img{
+    height: 57px;
+}
+.logo{
+    padding-left: 60px;
+    padding-top: 6px;
+}
+.other{
+    display: flex;
+    flex: 1;
+    text-decoration: underline;
+    padding-left: 23px; 
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:60px ;
+}
+.left-section .text{
+    padding-left: 10px;
+    padding-right: 30px;
+    
+    font-weight: 500;
+}
+.search,.offers,.help,.sign-in,.cart{
+    display: flex;
+    color: #3d4152;
+    cursor: pointer;
+}
+.search:hover{
+    color: #fc8019;
+}
+.offers:hover{
+    color: #fc8019;
+}
+.help:hover{
+    color: #fc8019;
+}
+.sign-in:hover{
+    color: #fc8019;
+}
+.cart:hover{
+    color: #fc8019;
+}
+.other .text:hover{
+    color: #fc8019;
+}
+.offers .text{
+    position: relative;
+}
+.offers .new{
+    position: absolute;
+    color: #fc8019;
+    font-size: 10px;
+    top: -7px;
+    right: -20px;
+}
+@media(max-width:576px){
+    .navbar-toggler{
+    background-color: #fc8019;
+    margin-left: 60px;
+}}
+@media(max-width: 992px){
+    nav ul{
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+        background: #fff;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 0;
+        margin-top: 20px;
+        
+    }
+    .logo{
+        padding-left: 60px;
+        padding-top: 6px;
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    .other{display: none;}
+}
